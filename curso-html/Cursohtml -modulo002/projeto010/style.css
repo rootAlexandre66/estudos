@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body{
+
+    background-color: rgb(111, 167, 161);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header >h1{
+    color: white;
+    text-align: center;
+}
+
+header >p{
+    color: white;
+    text-align: center;
+}
+
+nav >a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;   
+}
+#cabecalho{
+    background-color: rgb(61, 175, 61);
+     margin: -30px;
+}
+#sub-corpo{
+    background-color: white;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    width: 53em
+}
+#sub-corpo >h1{
+    text-align: left;
+}
+p{
+    text-indent: 20px;
+    text-align: justify; 
+}
+.image-mascote{
+    text-align: center
+}
+
+#principal{
+    background-color: rgb(7, 59, 42);
+    width: 53em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 0.1%;
+    
+    text-indent: 30px;
+    }
+    #sub-principal{
+    background-color: rgb(207, 231, 223);
+    width: 44em;
+    height: 25em;
+    margin-left: 8.5%;
+    border-radius: 10px 10px 10px 10px;
+    }
+    #final{
+    background-color: rgb(18, 153, 108);
+    width:44em;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+    }
+    #final >p{
+        font-family: monospace;
+        padding-top: 1em;
+    }
+    p.p2{
+        font-size:16px;
+        text-align: left;
+    }
+    ul{
+        list-style: none;
+        padding-left: 5px;
+    }
+    #p2{
+        margin-left: 50%;
+        margin-top: -23%;
+    }
+    .topicos{
+        font-family: 'block';
+    }
+    footer{
+        background-color: rgb(95, 182, 8);
+        
+        margin-bottom: -20px;
+        text-align: center;
+        
+    }
+    @font-face {
+        font-family: 'block';
+        src: url(fontes/idroid.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    a:hover {
+        
+      }

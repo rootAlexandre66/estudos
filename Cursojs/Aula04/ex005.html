@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com Dom</title>
+    <style>
+        body{
+            background-color: rgb(128, 128, 228);
+            color: cornsilk;
+            font: normal 20 pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        iniciando estudo com dom ok
+        <p>
+            Aqui vai o resultado
+        </p>
+        <p> aprendendo a usar a <strong>DOM</strong> em javascrypt</p>
+        <div id="msg">
+            Clique em mim
+        </div>
+    </h1>
+   <script>
+   /* var busca = window.document.getElementsByTagName('p')[1]
+    window.document.writeln('está escrito assim ' +busca.innerText)
+    var busca2 = window.document.getElementById('msg')
+    window.document.writeln('está escrito assim ' +busca2.innerText)*/
+    //queryselector
+    var a = window.document.querySelector('div#msg')
+    a.style.color='green'
+    a.style.background='white'
+
+</script>
+</body>
+</html>

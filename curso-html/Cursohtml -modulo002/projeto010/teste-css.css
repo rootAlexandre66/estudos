@@ -1,0 +1,48 @@
+@charset " TUF-8";
+body{
+    background-color: white;
+    color: rgb(20, 18, 18);
+}
+h1{
+    text-align: center;
+}
+#principal{
+background-color: rgb(7, 59, 42);
+width: 600px;
+height: auto;
+margin: auto;
+border-radius: 5px 5px 5px 5px;
+padding-top: 0.1%;
+text-indent: 30px;
+}
+#sub-principal{
+background-color: rgb(207, 231, 223);
+width: 500px;
+height: 500px;
+margin-left: 8.5%;
+border-radius: 10px 10px 10px 10px;
+
+}
+#final{
+background-color: rgb(18, 153, 108);
+width:500px;
+height: 50px;
+border-radius: 10px 10px 0px 0px;
+text-align: left;
+}
+#final >p{
+    font-family: monospace;
+    padding-top: 1em;
+}
+p.p2{
+    font-size:16px;
+    text-align: left;
+}
+ul{
+    list-style: none;
+    padding-left: 5px;
+}
+#p2{
+    margin-left: 50%;
+    margin-top: -32%;
+}

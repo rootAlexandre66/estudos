@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(177, 202, 194);
+            margin: 0;
+        }
+        header{
+            
+            background-color: rgb(164, 185, 178);
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: rgb(125, 175, 158);
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightblue;
+            border-style: dashed;
+        }
+        article > aside{
+            background-color: tomato;
+        }
+        nav{
+            background-color: turquoise;
+            padding: 2px;
+            margin: 2px;
+            box-shadow: 5px 2px  black;
+        }
+        nav > a{
+            text-decoration: nome;
+            color: white;
+            font-weight: bold;
+            margin: 10px; 
+        }
+        nav > a:hover{
+        text-decoration: underline;
+        }
+       
+        footer{
+            background-color: rgb(34, 29, 29);
+            margin-top: 0;
+            color: white;
+            text-align: center;
+            border-radius: 1px 10px 1px 10px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+</nav>
+   </header>
+   <main>
+<section id="assuntos">Assuntos</section>
+<section id="noticias">
+    <article>
+        <h2>
+            Noticias
+        </h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam fugit recusandae et quod necessitatibus aperiam nobis! Aperiam, at. Corporis rerum illum sed magni commodi sequi neque autem. Dignissimos, animi fugiat!
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus omnis aspernatur saepe in. Commodi numquam amet non totam nobis repellendus reprehenderit veniam maiores excepturi, expedita, inventore vel tempora, vitae atque!</p>
+        
+            <aside> <p>ipsum dolor sit amet consectetur</p></aside>
+            <article> 
+            <article>
+    </article>
+</section>
+   </main>
+   <footer>
+<p>By alexandre souza santos</p>
+   </footer>
+</body>
+</html>

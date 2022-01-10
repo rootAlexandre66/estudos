@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        div#resul{
+            background: rgb(175, 84, 160);
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        sistema de multas
+        valocidade do carro<input type="number" name="txtval" id="txtval">
+        <input type="button" value="caucular" onclick="caucular()">
+    </h1>
+    <div id="resul">
+
+    </div>
+    <script>
+        
+        function caucular()
+        {
+        var velocidade = window.document.getElementById('txtval')
+        var Multa = window.document.querySelector('div#resul')
+        velocidadeTotal = Number(velocidade.value)
+        var resulMulta = 0
+        if(velocidadeTotal <=80){
+            Multa.innerText = `a multa foi de ${resulMulta} BRL`
+            Multa.style.background = 'blue'
+
+        }
+        else if(velocidadeTotal >80 && velocidadeTotal <=150 ){
+            resulMulta +=1000
+            Multa.innerText = `a multa foi de ${resulMulta} BRL`
+            Multa.style.background = 'yellow'
+        }else{
+            resulMulta +=1500
+            Multa.innerText = `a multa foi de ${resulMulta} BRL`
+            Multa.style.background = 'red'
+        }
+        
+        }
+    </script>
+</body>
+</html>

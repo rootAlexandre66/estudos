@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    text-align: justify;
+}
+h1#titulo-principal{
+    text-align: center;
+    color: rgb(2, 14, 10);
+    background-color: rgb(86, 165, 140);
+    border-radius: 10px 0px 10px 0px;
+}
